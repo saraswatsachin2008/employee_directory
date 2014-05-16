@@ -7,7 +7,6 @@ define([ 'jquery','underscore','backbone','../collection/EmployeeCollection','te
         el: '#employeeDiv',
 
         render: function () {
-            console.log("render list");
             var employees = new EmployeeCollection();
             var that = this;
             employees.fetch({
@@ -16,9 +15,6 @@ define([ 'jquery','underscore','backbone','../collection/EmployeeCollection','te
                     that.$el.html(template);
                 }
             })
-
-
         }
-
     });
 });

@@ -1,7 +1,3 @@
-#applicationcontainer{
-    width: 100%;
-    height: 100%;
-}
 .centerAlign{
     position: absolute;
     top:0;
@@ -18,25 +14,6 @@
     display: none;
 }
 
-.maincontainer{
-    width: 70%;
-    height: 80%;
-    margin-top: 80px;
-    background-color: #E6E6E6;
-
-
+.btnmargin{
+    margin-left: 105px;
 }
-
-#addcontainer{
-    height:10%;
-}
-
-#employeelistcontainer{
-    height: 90%;
-}
-#addBtn{
-    width: 80px;
-    height: 50px;
-    float: right;
-}
-

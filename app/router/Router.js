@@ -13,16 +13,10 @@ define(['backbone','../listview/EmployeeListView','../employee/EmployeeModel','.
                 'edit/:id': 'editEmployee'
             },
             editEmployee:function(id){
-                console.log("Edit view",id);
                 addview.render({id: id});
             },
             defaultRoute:function(){
-                console.log("in defaulte route");
                 employeeListView.render();
             }
-
         });
-
     });
-
-//Backbone.history.start();

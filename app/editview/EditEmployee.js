@@ -33,7 +33,6 @@ define([ 'jquery','underscore','backbone','../employee/EmployeeModel','text!../e
 
         },
         saveEmployee: function (event) {
-            console.log("save employee");
             var employeeDetails = $(event.currentTarget).serializeObject();
             employee.save(employeeDetails, {
                 success: function (employee) {
@@ -56,5 +55,3 @@ define([ 'jquery','underscore','backbone','../employee/EmployeeModel','text!../e
 
     });
 });
-
-///////////////
