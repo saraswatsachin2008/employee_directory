@@ -4,7 +4,7 @@
 /*
 */
 
-define(['backbone','text!./Details.html','../../router/Router'],function(Backbone,tpl,Router){
+define(['backbone','text!./Details.html','../../router/router'],function(Backbone,tpl,Router){
     window.router = new Router();
     Backbone.history.start();
     return {
@@ -16,5 +16,5 @@ define(['backbone','text!./Details.html','../../router/Router'],function(Backbon
         render:function(){
             this.$el.html(_.template(tpl)());
         }
-    }
+    };
 });

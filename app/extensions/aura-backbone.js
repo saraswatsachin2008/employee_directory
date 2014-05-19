@@ -20,6 +20,6 @@ define(function() {
         app.sandbox.mvc = Backbone;
         app.components.addType('Backbone', Backbone.View.prototype);
       }
-    }
-  }
+    };
+  };
 });
