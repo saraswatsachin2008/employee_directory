@@ -73,8 +73,8 @@ module.exports = function (grunt) {
       },
       dist: {
         src: ['dist/aura.js'],
-        dest: 'dist/aura.js'
-      }
+        dest: 'dist/aura.js',
+      },
     },
     yuidoc: {
       compile: {
