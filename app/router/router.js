@@ -7,6 +7,8 @@ define(['backbone','../listview/employeeListView','../editview/editEmployee'],
         var addview = new EditEmployee();
 
         return  Backbone.Router.extend({
+            employeeListView:employeeListView,
+            addview:addview,
             routes: {
                 '': 'defaultRoute',
                 'new': 'editEmployee',

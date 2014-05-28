@@ -7,5 +7,12 @@
         "bootstrap":"latest",
         "aura" : "latest"
 
+    },
+    "devDependencies": {
+        "mocha": "~1.9.0",
+        "chai": "~1.7.1",
+        "sinon-chai": "~2.4.0",
+        "sinon": "1.6.0"
     }
+
 }
