@@ -2,10 +2,6 @@
  * Created by synerzip on 27/5/14.
  */
 define( ['backbone','chai','../../collection/employeeCollection'],function(Backbone,chai,EmployeeCollection){
-    /*return Backbone.Collection.extend({
-        url:'/users'
-    });*/
-
     describe('employee-collection', function () {
         var expect = chai.expect;
         var employeeCollection;

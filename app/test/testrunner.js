@@ -2,7 +2,6 @@
  * Created by synerzip on 27/5/14.
  */
 require.config({
-//    baseUrl: '/',
     paths: {
         'backbone': '../bower_components/backbone/backbone',
         'jquery': '../bower_components/jquery/jquery',
@@ -17,8 +16,6 @@ require.config({
     shim :{
         'backbone': { deps: ['jquery', 'underscore'], exports: 'Backbone' },
         'sinon': { exports: 'sinon' },
-//        'sinon/stub': { deps: ['sinon'], exports: 'sinon.stub' },
-//        'sinon/spy': { deps: ['sinon'], exports: 'sinon.spy' },
         'underscore': { exports: '_' }
     }
 

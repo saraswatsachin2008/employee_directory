@@ -1,25 +1,6 @@
 /**
  * Created by synerzip on 27/5/14.
  */
-/*define(['../../bower_components/backbone/backbone','../view/employeeListView','../view/editEmployee'],
- function(Backbone,EmployeeListView,EditEmployee){
-
-
- return  Backbone.Router.extend({
- routes: {
- '': 'defaultRoute',
- 'new': 'editEmployee',
- 'edit/:id': 'editEmployee'
- },
- editEmployee:function(id){
- addview.render({id: id});
- },
- defaultRoute:function(){
- employeeListView.render();
- }
- });
- });*/
-
 define([ 'backbone','chai','sinon','../../listview/employeeListView','../../editview/editEmployee','../../router/router'],function(Backbone,chai,sinon,EmployeeListView,EditEmployee,Router) {
 
     var expect = chai.expect;
